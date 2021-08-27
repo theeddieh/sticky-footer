@@ -1,0 +1,48 @@
+<?php
+header('Content-type: text/css');
+?>
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 155px; /* .push must be the same height as .footer */
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+/*
+     FILE ARCHIVED ON 16:53:37 Sep 22, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:43:38 Aug 27, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 204.127
+  exclusion.robots: 108.78
+  exclusion.robots.policy: 108.771
+  xauthn.identify: 74.213
+  xauthn.chkprivs: 34.369
+  RedisCDXSource: 17.264
+  esindex: 0.007
+  LoadShardBlock: 58.111 (3)
+  PetaboxLoader3.datanode: 92.954 (5)
+  CDXLines.iter: 17.509 (3)
+  load_resource: 142.937 (2)
+  PetaboxLoader3.resolve: 88.979 (2)
+*/
